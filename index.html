@@ -57,6 +57,10 @@
         >：套件從檔案所在的網站（使用你在該網站的登入狀態）或你拖放的本機檔案取得內容，只在瀏覽器記憶體中解析與顯示。關閉該預覽分頁或側欄後即釋放。檔案內容不會傳送給開發者或任何第三方。
       </li>
       <li>
+        <strong>下載改為預覽</strong>：只有在你開啟這個開關後，網頁要下載
+        PDF、圖片、影片或試算表時，套件會讀取該筆下載的網址，並以你的登入狀態重新抓取一次以在側欄顯示（不支援的格式照常下載）。下載網址與內容同樣只在你的電腦上處理，不會傳送給任何人。
+      </li>
+      <li>
         <strong>設定</strong>：「下載改為預覽」開關、已啟用後台模式的網站清單（只有網站位址，例如
         <code>https://example.com</code>），存在你電腦上的 Chrome 擴充儲存空間，不會同步或上傳。
       </li>
@@ -109,6 +113,13 @@
           existing login on that site) or from files you drag in, and parsed only in browser memory.
           They are released when you close the preview tab or the side panel, and are never sent to
           the developer or any third party.
+        </li>
+        <li>
+          <strong>Preview downloads</strong>: only when you turn this switch on, when a page tries
+          to download a PDF, image, video or spreadsheet, the extension reads that download's URL
+          and fetches it once more with your existing login to display it in the side panel (other
+          formats download normally). The URL and content are processed only on your computer and
+          never sent to anyone.
         </li>
         <li>
           <strong>Settings</strong>: the "Preview downloads" switch and the list of sites with
